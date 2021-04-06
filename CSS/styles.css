@@ -159,7 +159,6 @@ button{
   background-color: #abc8f3;
   width: 2.8rem;
   height: 2.8rem;
-  border:none;
   border-radius: 100px;
   display: flex;
   justify-content: center;
@@ -301,13 +300,13 @@ button{
   position: absolute;
   top: 50%;
   bottom: 50%;
+  font-size: 0.6rem;
   left: 0;
-  font-size: 0.62rem;
   font-weight: 500;
   margin: 0;
 }
 
-.prix-pop, .prix-heb-marseille span{
+span{
   font-weight: bold;
   font-size: 0.6rem;
 }
@@ -381,7 +380,6 @@ button{
   font-size: 0.8rem;
   font-weight: 500;
   margin: 0;
-  /* margin: 1.3em 0 1.2em 0; */
 }
 
 .div-etoile-heb-marseille i{
@@ -455,6 +453,25 @@ button{
 footer{
   background-color: #F2F2F2;
   margin-bottom: 30px;
+}
+
+
+@media screen and (max-width: 320px){
+  main{
+    margin: 7px;
+  }
+
+  .div-champ-rech{
+    width: 90%
+  }
+
+  .div-eco{
+    width: 52%;
+  }
+
+  .div-famille{
+    width: 41%;
+  }
 }
 
 /* ----------------------------IPAD---------------------- */
@@ -652,6 +669,16 @@ footer{
     margin-left: 30px;
   }
     
+}
+
+@media screen and (min-width : 1024px){
+  .div-filtres{
+    width: 90%;
+  }
+
+  .text-filtres{
+    right: 40px;
+  }
 }
 
 
